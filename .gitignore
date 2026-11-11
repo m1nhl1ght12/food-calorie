@@ -1,0 +1,52 @@
+# === Dataset (Do not push large datasets to Git; share via Drive/USB) ===
+vfn_1_0/
+vfn_1_0.zip
+*.zip
+*.tar
+*.tar.gz
+data/raw/
+data/processed/
+datasets/
+
+# === Model Weights & Training Outputs ===
+*.pt
+*.pth
+*.onnx
+*.engine
+*.weights
+runs/
+wandb/
+
+# === Local Databases ===
+*.db
+*.sqlite
+*.sqlite3
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# === Frontend (Node / React) ===
+node_modules/
+frontend/dist/
+frontend/build/
+dist/
+build/
+.vite/
+
+# === Environment Variables / Secrets ===
+.env
+.env.local
+.env.*.local
+
+# === OS / Office Temp Files / Logs ===
+.DS_Store
+Thumbs.db
+~$*.docx
+*.log
